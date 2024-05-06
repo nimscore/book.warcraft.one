@@ -30,10 +30,7 @@ const config: Config = {
 		// Object format.
 		{
 			src: 'https://wow.zamimg.com/js/tooltips.js',
-			async: true,
-			colorLinks: true,
-			iconizeLinks: true,
-			renameLinks: true
+			async: true
 		}
 	],
 

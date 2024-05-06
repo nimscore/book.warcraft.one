@@ -6,7 +6,7 @@ const organizationName = 'nimscore'
 const projectName = 'book.warcraft.one'
 
 const config: Config = {
-	title: 'Book W | ONE',
+	title: 'BOOK | ONE',
 	tagline: 'Руководства по классам World of Warcraft',
 	favicon: 'img/favicon.ico',
 
@@ -79,21 +79,21 @@ const config: Config = {
 		// Replace with your project's social card
 		image: 'img/docusaurus-social-card.jpg',
 		navbar: {
-			title: 'Book W | ONE',
+			title: 'BOOK | ONE',
 			logo: {
 				alt: 'Site Logo',
-				src: 'img/logo.svg'
+				src: 'img/logo.png'
 			},
 			items: [
 				{
 					type: 'docSidebar',
 					sidebarId: 'tutorialSidebar',
 					position: 'left',
-					label: 'Tutorial'
+					label: 'Руководства'
 				},
-				{ to: '/blog', label: 'Blog', position: 'left' },
+				{ to: '/blog', label: 'Блог', position: 'left' },
 				{
-					href: 'https://github.com/facebook/docusaurus',
+					href: 'https://github.com/nimscore/book.warcraft.one',
 					label: 'GitHub',
 					position: 'right'
 				}
@@ -103,46 +103,42 @@ const config: Config = {
 			style: 'dark',
 			links: [
 				{
-					title: 'Docs',
+					title: 'Руководства',
 					items: [
 						{
-							label: 'Tutorial',
-							to: '/docs/intro'
+							label: 'Руководства',
+							to: '/book/общее'
 						}
 					]
 				},
 				{
-					title: 'Community',
+					title: 'Сообщество',
 					items: [
 						{
-							label: 'Stack Overflow',
-							href: 'https://stackoverflow.com/questions/tagged/docusaurus'
+							label: 'Сообщество',
+							href: 'https://warcraft.one'
 						},
 						{
 							label: 'Discord',
-							href: 'https://discordapp.com/invite/docusaurus'
-						},
-						{
-							label: 'Twitter',
-							href: 'https://twitter.com/docusaurus'
+							href: 'https://discordapp.com'
 						}
 					]
 				},
 				{
-					title: 'More',
+					title: 'Другое',
 					items: [
 						{
-							label: 'Blog',
+							label: 'Блог',
 							to: '/blog'
 						},
 						{
 							label: 'GitHub',
-							href: 'https://github.com/facebook/docusaurus'
+							href: 'https://github.com/nimscore/book.warcraft.one'
 						}
 					]
 				}
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} WARCRAFT | ONE`
+			copyright: `Copyright © ${new Date().getFullYear()} W | ONE`
 		},
 		prism: {
 			theme: prismThemes.github,

@@ -29,12 +29,11 @@ const config: Config = {
 
 		// Object format.
 		{
-			src: './src/components/custom/addCustomScriptsToHead.js',
-			async: true
-		},
-		{
 			src: 'https://wow.zamimg.com/js/tooltips.js',
-			async: true
+			async: true,
+			colorLinks: true,
+			iconizeLinks: true,
+			renameLinks: true
 		}
 	],
 

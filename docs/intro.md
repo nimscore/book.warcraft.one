@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-Резервы
+[Резервы](https://www.wowhead.com/ru/spell=322120)
 
 # Tutorial Intro
 

@@ -6,8 +6,8 @@ const organizationName = 'nimscore'
 const projectName = 'book.warcraft.one'
 
 const config: Config = {
-	title: 'My Site',
-	tagline: 'Dinosaurs are cool',
+	title: 'Book W | ONE',
+	tagline: 'Руководства по классам World of Warcraft',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
@@ -24,12 +24,22 @@ const config: Config = {
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
 
+	scripts: [
+		// String format.
+		'const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true}',
+		// Object format.
+		{
+			src: 'https://wow.zamimg.com/js/tooltips.js',
+			async: true
+		}
+	],
+
 	// Even if you don't use internationalization, you can use this field to set
 	// useful metadata like html lang. For example, if your site is Chinese, you
 	// may want to replace "en" with "zh-Hans".
 	i18n: {
-		defaultLocale: 'en',
-		locales: ['en']
+		defaultLocale: 'ru',
+		locales: ['ru']
 	},
 
 	presets: [
@@ -40,15 +50,13 @@ const config: Config = {
 					sidebarPath: './sidebars.ts',
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl:
-						'https://github.com/${organizationName}/${projectName}/tree/main/packages/create-docusaurus/templates/shared/'
+					editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/packages/create-docusaurus/templates/shared/`
 				},
 				blog: {
 					showReadingTime: true,
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl:
-						'https://github.com/${organizationName}/${projectName}/tree/main/packages/create-docusaurus/templates/shared/'
+					editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/packages/create-docusaurus/templates/shared/`
 				},
 				theme: {
 					customCss: './src/css/custom.css'
@@ -61,9 +69,9 @@ const config: Config = {
 		// Replace with your project's social card
 		image: 'img/docusaurus-social-card.jpg',
 		navbar: {
-			title: 'My Site',
+			title: 'Book W | ONE',
 			logo: {
-				alt: 'My Site Logo',
+				alt: 'Site Logo',
 				src: 'img/logo.svg'
 			},
 			items: [

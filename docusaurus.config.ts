@@ -40,7 +40,7 @@ const config: Config = {
 			attributes: {
 				type: 'text/javascript',
 			},
-			innerHTML: 'const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};'
+			innerHTML: `const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};`
 		}
 	],
 

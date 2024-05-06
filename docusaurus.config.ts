@@ -26,13 +26,20 @@ const config: Config = {
 
 	scripts: [
 		// String format.
-		'const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true}',
+
 		// Object format.
 		{
 			src: 'https://wow.zamimg.com/js/tooltips.js',
 			async: true
 		}
 	],
+
+	ssrTemplate: `<!DOCTYPE html>
+		<html <%~ it.htmlAttributes %>>
+  		<head>
+			<script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>
+  		</head>
+		</html>`,
 
 	// Even if you don't use internationalization, you can use this field to set
 	// useful metadata like html lang. For example, if your site is Chinese, you
@@ -132,7 +139,7 @@ const config: Config = {
 					]
 				}
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} WARCRAFT | ONE.`
+			copyright: `Copyright © ${new Date().getFullYear()} WARCRAFT | ONE`
 		},
 		prism: {
 			theme: prismThemes.github,

@@ -3,7 +3,7 @@ import type { Config } from '@docusaurus/types'
 import { themes as prismThemes } from 'prism-react-renderer'
 
 const organizationName = 'nimscore'
-const projectName = 'doc.warcraft.one'
+const projectName = 'book.warcraft.one'
 
 const config: Config = {
 	title: 'My Site',

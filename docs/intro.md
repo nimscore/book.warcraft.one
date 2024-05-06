@@ -6,6 +6,8 @@ sidebar_position: 1
 
 \[\*\*Резервы\*\*\]()
 
+<https://www.wowhead.com/ru/spell=322120/>
+
 # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.

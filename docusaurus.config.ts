@@ -11,7 +11,7 @@ const config: Config = {
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
-	url: `https://${organizationName}.github.io`,
+	url: `https://${projectName}`,
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: `/${projectName}/`,
@@ -132,7 +132,7 @@ const config: Config = {
 					]
 				}
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`
+			copyright: `Copyright © ${new Date().getFullYear()} WARCRAFT | ONE.`
 		},
 		prism: {
 			theme: prismThemes.github,

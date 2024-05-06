@@ -107,7 +107,7 @@ const config: Config = {
 					items: [
 						{
 							label: 'Руководства',
-							to: '/docs/общее'
+							to: '/docs/Общее'
 						}
 					]
 				},

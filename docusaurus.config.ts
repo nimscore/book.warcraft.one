@@ -81,7 +81,7 @@ const config: Config = {
 		navbar: {
 			title: 'BOOK | ONE',
 			logo: {
-				alt: 'Site Logo',
+				alt: 'WONE LOGO',
 				src: 'img/logo.png'
 			},
 			items: [

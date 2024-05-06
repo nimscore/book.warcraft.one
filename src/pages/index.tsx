@@ -35,14 +35,14 @@ export default function Home(): JSX.Element {
   
   const {siteConfig} = useDocusaurusContext();
 
-  const WowHeadScript: string = "const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};"
+  const WowHeadScript: string = "<script>const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};</script>"
 
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <Head>
-        <script>{WowHeadScript}</script>
+        {WowHeadScript}
       </Head>
       <HomepageHeader />
       <main>

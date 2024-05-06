@@ -33,6 +33,16 @@ const config: Config = {
 			async: true
 		}
 	],
+	
+	headTags: [
+		{
+			tagName: 'script',
+			attributes: {
+				type: 'text/javascript',
+			},
+			innerHTML: 'const whTooltips = {colorLinks: true, iconizeLinks: true, renameLinks: true};'
+		}
+	],
 
 	// Even if you don't use internationalization, you can use this field to set
 	// useful metadata like html lang. For example, if your site is Chinese, you
